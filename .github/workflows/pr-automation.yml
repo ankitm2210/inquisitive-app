@@ -15,7 +15,7 @@ jobs:
     - name: Create PR
       uses: ankitm2210/create-pull-request@v3
       with:
-        token: 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
+        token: 
         branch: ankit/branch_to_test_action
         title: Test title
         body: test description
