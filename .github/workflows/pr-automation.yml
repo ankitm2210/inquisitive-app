@@ -2,7 +2,7 @@ name: Daily PR Automation
 
 on:
   schedule:
-    - cron: "20 12 * * *"
+    - cron: "17 12 * * *"
 
 jobs:
   automate-pr:
