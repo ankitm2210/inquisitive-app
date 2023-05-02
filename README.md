@@ -7,5 +7,5 @@ The App contains following Services:
 3. DataWriteService
 4. FeedsService[Yet to be checked In; Dated Janaury 26,2019]
 
-To run this app , we need to have a sql database server running.
+To run this app,we need to have a sql database server running.
 
