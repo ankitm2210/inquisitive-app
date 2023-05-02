@@ -1,0 +1,22 @@
+name: Daily PR Automation
+
+on:
+  schedule:
+    - cron: "20 12 * * *"
+
+jobs:
+  automate-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Create PR
+      uses: ankitm2210/create-pull-request@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ankit/branch_to_test_action
+        title: Test title
+        body: test description
+        base: master
